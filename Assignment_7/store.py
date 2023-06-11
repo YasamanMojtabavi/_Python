@@ -116,7 +116,7 @@ def Qr_code():
     for product in PRODUCTS:
         if product["code"]==code:
             img=qrcode.make("code:" + product["code"] + " name:" + product["name"] + " price:" + product["price"] + " count:" + str(product["count"]))
-            img.save ("Qrcode.png")
+            img.save ("Assignment_7\Qrcode.png")
             break
 
 
