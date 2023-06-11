@@ -23,8 +23,6 @@ def write_to_database():
         new=str(product["code"]) + "," + str(product["name"]) + "," + str(product["price"]) + "," + str(product["count"]) + "\n"
         f.write(new)
         
-
-
     f.close()
 
 def show_menu():
@@ -126,12 +124,17 @@ def Qr_code():
 print("Welcome to Strawberry Store")
 print("Loading...")
 read_from_database()
+
+for product in PRODUCTS:
+    st=product["count"]
+    product["count"]=st.replace("\n","")  
+
 print("Data loaded.")
 
 while True:
     show_menu()
     choice=int(input("Enter your choice: "))
-
+    
     if choice ==1:
         add()
     elif choice ==2:
