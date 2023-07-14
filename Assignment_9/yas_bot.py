@@ -44,6 +44,7 @@ def send_qrcode(message):
 def echo_all(message):
 	if message.text == "hello":
 		bot.send_message(message.chat.id,"Hello")
+		
 	else:
 		bot.send_message(message.chat.id,"icant understand",reply_markup=my_keyboard)
 
