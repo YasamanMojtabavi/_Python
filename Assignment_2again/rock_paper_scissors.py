@@ -1,7 +1,6 @@
 import random
 computer_score=0
 user_score=0
-
 cpu_choice=random.randint(1,3)
 if cpu_choice==1:
     computer_choice="rock"
@@ -13,7 +12,7 @@ elif cpu_choice==3:
 user_choice=input("enter your choice")
 
 print("💻:",computer_choice)
-print("👩🏻:",user_choice)
+print("👩🏻‍💻:",user_choice)
 
 if computer_choice =="rock" and user_choice=="paper":
     user_score=user_score+1

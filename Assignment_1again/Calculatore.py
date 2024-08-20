@@ -2,7 +2,7 @@ import math
 
 print("😊😊 Welcom to my Calculator: 😊😊")
 
-for i in range(20):
+while True:
     print("please enter your choice:")
     print("+ : sum")
     print("- : sub")

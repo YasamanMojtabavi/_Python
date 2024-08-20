@@ -5,7 +5,7 @@ for i in range(20):
     user_number=int(input("guess number?"))
 
     if computer_number == user_number:
-        print("🎉yoou wiiiiiiiiiiiin🎉")
+        print("🎉yoou wiiiiiiiiin🎉")
         print("you succeeded after",i+1,"attempts.")
         break
 
