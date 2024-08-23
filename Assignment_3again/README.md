@@ -1,4 +1,4 @@
-Bmm.py
+✔Bmm.py:
 This script calculates the Biggest Mutual Divisor (BMM) of two given numbers.
 
 HangMan.py
