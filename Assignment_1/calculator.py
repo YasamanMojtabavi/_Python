@@ -65,7 +65,7 @@ for i in range(3):
         result=math.tan(num1)
 
     elif op=="cot":
-        result=math.cot(num1)
+        result=math.cos(math.radians(num1)) / math.cos(math.radians(num1))
 
     print (result)
 

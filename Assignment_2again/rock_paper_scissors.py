@@ -36,5 +36,5 @@ if user_score>computer_score:
     print("user is win")
 if user_score<computer_score:
     print("computer is win")
-else:
+elif user_score == computer_score:
     print(" computer=user ")
