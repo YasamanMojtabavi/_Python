@@ -57,7 +57,7 @@ while True:
 
     elif op == "cot":
         a=a*(math.pi/180)
-        result=math.cos(math.radians(num1)) / math.cos(math.radians(num1))
+        result=1/math.tan(a)
 
     elif op == "factorial":
         result=math.factorial(a)
