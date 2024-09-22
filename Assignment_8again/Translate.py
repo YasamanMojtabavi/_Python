@@ -24,7 +24,7 @@ def write_to_database():
        else:  
             new=str("\n"+word["en"]) + "\n" + str(word["fa"])  
             f.write(new)
-            
+
     f.close()
 
 def add():
@@ -34,7 +34,7 @@ def add():
     words_bank.append(new_word)
 
 def translate_english_to_persian():
-    user_text=input("Enter your english text: ")
+    user_text=str(input("Enter your english text:")).replace("."," . ")
     user_words=user_text.split(" ")
     output=""
 
@@ -54,7 +54,7 @@ def translate_english_to_persian():
     print(output)
 
 def translate_persian_to_english():
-    user_text=input("Enter your persian text: ")
+    user_text=str(input("Enter your persian text:")).replace("."," . ")
     user_words=user_text.split(" ")
     output=""
 

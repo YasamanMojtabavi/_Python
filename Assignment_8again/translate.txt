@@ -210,3 +210,5 @@ tomato
 goje_farangi
 tree
 derakht
+have
+daram
