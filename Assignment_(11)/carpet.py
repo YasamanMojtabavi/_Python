@@ -1,7 +1,7 @@
 def carpet(n):
     if (n%2)!=0:
         m = n // 2
-        return [[max(abs(x - m), abs(y - m)) for x in range(n)] for y in range(n)]
+        return [[max("🤑💲") for x in range(n)] for y in range(n)]
     else:
         return "✖"
     
