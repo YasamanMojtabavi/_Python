@@ -10,7 +10,9 @@ def show(list):
        print("n not even number.")
     else:
         for row in list:
-          print(row)
+            print()
+            for cell in row:
+                 print(cell,end="")
 
 n=int(input("Enter N: "))
 result=carpet(n)
