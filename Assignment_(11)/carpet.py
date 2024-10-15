@@ -1,7 +1,7 @@
 def carpet(n):
     if (n%2)!=0:
         m = n // 2
-        return [[max("🤑💲") for x in range(n)] for y in range(n)]
+        return [[ "🍎🍊🍐" for x in range(n)] for y in range(n)]
     else:
         return "✖"
     
@@ -12,7 +12,8 @@ def show(list):
         for row in list:
             print()
             for cell in row:
-                 print(cell,end="")
+              print(cell,end="")
+          
 
 n=int(input("Enter N: "))
 result=carpet(n)
