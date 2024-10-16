@@ -1,7 +1,20 @@
+def chek(n):
+    if n%5==0:
+        return "🥭"
+    if n%5==1:
+        return "🍐"
+    if n%5==2:
+        return "🍇"
+    if n%5==3:
+        return "🍒"
+    if n%5==4:
+        return "🌽"
+
+
 def carpet(n):
     if (n%2)!=0:
         m = n // 2
-        return [[ "🍎🍊🍐" for x in range(n)] for y in range(n)]
+        return [[chek(max(abs(x - m), abs(y - m))) for x in range(n)] for y in range(n)]
     else:
         return "✖"
     
