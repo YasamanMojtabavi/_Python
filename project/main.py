@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-my_image_1=cv2.imread("D:\python\image_processing\project/2.jpg")
-my_image_2=cv2.imread("D:\python\image_processing\project/1.jpg")
+my_image_1=cv2.imread("D:\python\image_processing\project/3.jpg")
+my_image_2=cv2.imread("D:\python\image_processing\project/4.jpg")
 
 my_image_1=cv2.cvtColor(my_image_1,cv2.COLOR_BGR2GRAY)
 my_image_2=cv2.cvtColor(my_image_2,cv2.COLOR_BGR2GRAY)
